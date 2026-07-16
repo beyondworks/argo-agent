@@ -2,8 +2,8 @@
 
 # ⛵ Argo
 
-**프롬프트 한 줄로 만드는 AI 직원 회사**
-*Build a company of AI crew with a single prompt*
+**잊지 않는 AI — 폴더째 기억하고, 자리를 떠나도 일이 이어집니다**
+*The AI that remembers everything and never loses the thread*
 
 [한국어](#한국어) · [English](#english) · [⬇ 지금 다운로드 / Download now](#-다운로드--download)
 
@@ -13,22 +13,23 @@
 
 ## 한국어
 
-Argo는 **AI 에이전트를 "직원"처럼 고용해서 일을 시키는 데스크톱 앱**입니다. 채팅창 하나에 갇힌 AI가 아니라, 이름과 역할이 있는 크루가 한 배(회사)에 타고, 회사가 일할수록 기억이 쌓입니다.
+채팅창의 AI는 창을 닫는 순간 어제 한 일을 잊습니다. **Argo의 크루(AI 직원)는 마크다운 한 장이 아니라 폴더째 기억합니다** — 일할수록 기억이 쌓이고 서로 연결되며, 당신이 자리를 떠나 있어도 업무 맥락이 끊기지 않습니다.
 
 > 이 저장소는 **설치파일 배포 전용**입니다. 앱 소스 코드는 비공개입니다.
 
 ### 무엇이 다른가
 
-- **프롬프트 한 줄로 크루 영입** — "뉴스레터를 쓰는 시니어 에디터"라고 적으면 역할·전문 분야·페르소나를 갖춘 크루가 승선합니다. 마케터, 전략 기획자, 리서처… 필요한 만큼.
-- **회사 = 폴더, 기억 = 파일** — 크루가 일하며 배운 것이 회사 폴더에 노트·일지로 쌓입니다. 비슷한 기억은 **스스로 연결**되어 별자리처럼 자라나고, 다음 업무의 맥락이 됩니다. 매번 같은 설명을 반복할 필요가 없어집니다.
-- **데크(관제실)** — 자리를 비운 사이 크루가 처리한 일, 새로 기록된 기억, 결재 대기 항목을 아침 브리핑 한 화면으로.
-- **메신저가 정문** — 텔레그램·슬랙을 연결하면 `@크루이름 업무` 한 줄로 밖에서도 일을 시킵니다. 위험한 작업의 승인도 메신저 버튼으로.
-- **루틴** — 반복 업무는 한 번 등록해 두면 크루가 알아서 돌립니다.
-- **회의실 · 경쟁 시안** — 여러 크루에게 같은 과제를 동시에 시켜 결과를 나란히 비교하고 채택합니다.
-- **폭주 통제 장치 내장** — 파일·웹·셸 권한을 회사별로 켜고 끄고, 부작용 있는 행동은 승인을 거치게 합니다. AI에게 컴퓨터를 맡기는 데 필요한 브레이크.
-- **내 열쇠로 구동(BYOK)** — Claude·Codex·Gemini 등 이미 쓰고 있는 **구독(OAuth) 또는 API 키**로 크루의 두뇌를 연결합니다. 별도 이용료 없는 무료 베타.
-- **로컬 우선 + 계정 동기화** — 데이터는 내 컴퓨터의 폴더에 남고, 로그인하면 다른 기기에서도 같은 회사가 이어집니다.
-- 한국어·영어 UI, 19종 테마, **인앱 원버튼 업데이트**(설정 → 기기 → 앱 업데이트).
+- **폴더째 기억하는 무한 기억력** — 대화가 끝나도 사라지지 않습니다. 크루가 배운 것이 회사 폴더에 노트·일지·위키 파일로 쌓입니다. 컨텍스트 창의 크기 제한이 없습니다 — 폴더가 곧 기억이니까요.
+- **LLM Wiki 내장, 지식은 복리로** — 배운 지식이 위키 페이지로 정리되고, 유사한 업무끼리 **스스로 링크로 연결**됩니다. 쓰면 쓸수록 별자리처럼 자라는 회사의 두뇌.
+- **자가 스킬 생성** — 같은 일이 두 번 이상 반복되면 크루가 그 절차를 스스로 스킬로 만듭니다. 세 번째부터는 더 빠르고, 더 정확하게.
+- **자리를 떠나도 이어지는 맥락** — 텔레그램·슬랙을 연결하면 밖에서도 `@크루이름 업무` 한 줄로 지시하고, 위험한 작업은 메신저 버튼으로 승인합니다. 로그인하면 다른 기기에서도 같은 회사가 그대로 이어집니다.
+- **대기 토큰 0** — 회사를 24시간 켜 두어도 일이 없으면 토큰을 한 푼도 쓰지 않습니다. 열어두는 데 비용이 들지 않습니다.
+- **프롬프트 한 줄로 크루 영입** — "뉴스레터를 쓰는 시니어 에디터"라고 적으면 역할·전문 분야·페르소나를 갖춘 크루가 승선합니다. 필요한 만큼.
+- **데크(관제실)** — 자리를 비운 사이 처리된 일, 새 기억, 결재 대기를 아침 브리핑 한 화면으로.
+- **루틴 · 경쟁 시안** — 반복 업무는 스케줄로 자동화하고, 여러 크루에게 같은 과제를 동시에 시켜 최고 결과를 채택합니다.
+- **폭주 통제 장치 내장** — 파일·웹·셸 권한을 회사별로 켜고 끄고, 부작용 있는 행동은 승인을 거치게 합니다.
+- **내 열쇠로 구동(BYOK)** — Claude·Codex·Gemini 등 이미 쓰는 **구독(OAuth) 또는 API 키**로 연결. 별도 이용료 없는 무료 베타.
+- 로컬 우선(데이터는 내 컴퓨터 폴더에), 한국어·영어 UI, **인앱 원버튼 업데이트**.
 
 ### 시스템 요구사항
 
@@ -38,22 +39,23 @@ macOS 13 이상 (Apple Silicon / Intel) · Windows 10 이상 (64-bit)
 
 ## English
 
-Argo is a **desktop app where you hire AI agents like employees**. Not another chat box — crews with names and roles board one ship (your company), and the company's memory compounds as they work.
+A chat-window AI forgets yesterday's work the moment you close the tab. **Argo's crew (AI employees) remember whole folders, not a single markdown file** — memory compounds and links up as they work, and the thread of your work never breaks, even while you're away.
 
 > This repository is for **installer distribution only**. The app source code is private.
 
 ### Why Argo
 
-- **Hire crew with one prompt** — type "a senior editor who writes newsletters" and a crew member boards with a role, expertise, and persona. Marketers, strategists, researchers — as many as you need.
-- **Company = a folder, memory = files** — what your crew learns lands in the company folder as notes and journals. Similar memories **link up on their own**, growing like a constellation that feeds context into the next task. You stop repeating yourself.
+- **Unlimited, folder-scale memory** — nothing vanishes when the conversation ends. What your crew learns lands in the company folder as notes, journals, and wiki files. No context-window ceiling — the folder *is* the memory.
+- **Built-in LLM wiki, compounding knowledge** — knowledge is organized into wiki pages, and similar work **links itself together**. A company brain that grows like a constellation the more you use it.
+- **Self-generated skills** — when the same job repeats twice, your crew turns the procedure into a skill on its own. From the third time on: faster, more precise.
+- **The thread survives you leaving** — connect Telegram or Slack to delegate with one `@crew task` line from anywhere, and approve risky actions with a button. Sign in on another device and the same company continues.
+- **Zero idle tokens** — keep the company running 24/7; if there's no work, it spends nothing. Leaving it open is free.
+- **Hire crew with one prompt** — type "a senior editor who writes newsletters" and a crew member boards with a role, expertise, and persona.
 - **The Deck** — a morning brief of everything that happened while you were away: turns handled, memories written, approvals waiting.
-- **Messengers as the front door** — connect Telegram or Slack and delegate with a single `@crew task` line from anywhere. Approve risky actions with a button, right in the chat.
-- **Routines** — set up recurring work once; your crew keeps it running.
-- **Meeting room & contests** — run several crews on the same brief in parallel, compare results side by side, and adopt the best.
-- **Brakes included** — per-company toggles for file/web/shell access, plus an approval gate for side-effectful actions. The control you need before handing an AI your computer.
-- **Bring your own key (BYOK)** — power crews with the **subscription (OAuth) or API keys** you already have: Claude, Codex, Gemini, and more. Free beta, no extra fee.
-- **Local-first + account sync** — your data lives in folders on your machine; sign in and the same company continues on your other devices.
-- Korean & English UI, 19 themes, **one-button in-app updates** (Settings → Devices → App updates).
+- **Routines & contests** — schedule recurring work, or run several crews on the same brief and adopt the best result.
+- **Brakes included** — per-company toggles for file/web/shell access, plus an approval gate for side-effectful actions.
+- **Bring your own key (BYOK)** — power crews with the **subscription (OAuth) or API keys** you already have: Claude, Codex, Gemini, and more. Free beta.
+- Local-first (your data lives in folders on your machine), Korean & English UI, **one-button in-app updates**.
 
 ### System requirements
 
